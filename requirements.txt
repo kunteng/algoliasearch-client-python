@@ -6,3 +6,5 @@ pypandoc
 requests[security]>=2.9.1
 nose2
 fake-factory
+
+git+ssh://git@github.com/kunteng/requests.git@v2.12.3-feat_urllib_updated#egg=izb_requests

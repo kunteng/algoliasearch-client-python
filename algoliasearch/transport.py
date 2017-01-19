@@ -3,9 +3,9 @@ import json
 import os
 import time
 
-from requests import Session
-from requests.adapters import HTTPAdapter
-from requests.packages.urllib3.util import Retry
+from izb_requests import Session
+from izb_requests.adapters import HTTPAdapter
+from izb_requests.packages.urllib3.util import Retry
 
 from .helpers import AlgoliaException, CustomJSONEncoder, rotate, urlify
 
